@@ -1,8 +1,11 @@
 import './App.css';
+import countdown from './Components/count-down';
 
 function App() {
   return (
-    <span> "Hello World" </span>
+    <div className='App'>
+      { countdown() }
+    </div>
   );
 }
 
