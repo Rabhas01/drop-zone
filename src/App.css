@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rozha+One&display=swap");
 .App {
   width: 100vw;
   height: 100vh;
@@ -6,5 +7,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('./images/landing.jpg'); 
+  background-size: cover;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  right: 0.5rem;
+  justify-content: flex-end;
+  font-family:'Rozha One', sans-serif;
+  font-size: 30px;
+  line-height: 2rem;
+  height: 0.5rem;
+  color: white;
+  letter-spacing: .4rem;
+  width: 08.5rem;
+  margin-right: 1.9rem;
+}
+
+
+.first {
+  margin-right: 1rem;
+  background-color: black;
+}
+
+.second {
+  margin-left: 1.2rem;
+  margin-top: 5px;
+  background-color: black;
 }
 

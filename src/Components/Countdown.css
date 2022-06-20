@@ -1,0 +1,39 @@
+.countdown {
+  width: 900px;
+  height: 200px;
+  font-family:'Roboto', sans-serif;
+   
+}
+
+.title {
+  display:flex ;
+  justify-content: center;
+  flex-direction: row;
+  letter-spacing: .4rem;
+  font-size: 40px; 
+}
+
+.countdown-timer{
+  display: flex;
+  justify-content: center; 
+  letter-spacing: 1rem; 
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.duration {
+  display:flex;
+  justify-content: center;
+  word-spacing: 2rem;
+
+}
+
+
+
+.para {
+  display: flex;
+  justify-content: center;
+}
