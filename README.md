@@ -1,5 +1,5 @@
 # Drop Zone
-Diff technical interview question.
+Diff technical interview question. A single page **React** application that shows user a count down timer decrementing in real time. Date and time is configurable to a user desired date.
 
 ### Option B
 1. The solution matches the mock ups.
