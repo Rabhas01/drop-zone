@@ -1,23 +1,15 @@
-import './App.css';
-import Countdown from './Components/Countdown';
+import "./App.css";
+import Countdown from "./Components/Countdown";
 
 function App() {
   return (
-    <div className='App'>
-      {
-      Countdown()
-    }
-
-      <header className='top-right'>
-
-        <span className='first'>DROP</span>
-        <span className='second'>ZONE</span>
-
+    <div className="App">
+      {Countdown()}
+      <header className="top-right">
+        <span className="first">DROP</span>
+        <span className="second">ZONE</span>
       </header>
-      {/* <div className='top-right'>
-      <span className='first'>DROP</span>
-      <span className='second'>ZONE</span> */} </div>
-
+    </div>
   );
 }
 

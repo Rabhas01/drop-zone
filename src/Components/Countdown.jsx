@@ -10,7 +10,7 @@ const Countdown = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const date = new Date("07/01/2022 01:16:30" );
+    const date = new Date("07/01/2022 01:16:30"); // date to which countdown is running
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -20,7 +20,7 @@ const Countdown = () => {
       const hours = ("0" + Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
       const minutes = ("0" + Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
       const seconds = ("0" + Math.floor((difference % (1000 * 60)) / 1000)).slice(-2);
-      
+
       if (difference < 0) {
         clearInterval(interval.current);
       } else {
@@ -43,17 +43,17 @@ const Countdown = () => {
     <section className="countdown">
       <h1 className="title">LEEZY BOOST 103</h1>
       <section className="countdown-timer">
-        <span>{timerDays.substring(0,1)}</span>
+        <span>{timerDays.substring(0, 1)}</span>
         <span>{timerDays.substring(1)}</span>
-        
-        <span>{timerHours.substring(0,1)}</span>
+
+        <span>{timerHours.substring(0, 1)}</span>
         <span>{timerHours.substring(1)}</span>
 
-         <span>{timerMinutes.substring(0,1)}</span>
-          <span>{timerMinutes.substring(1)}</span>
+        <span>{timerMinutes.substring(0, 1)}</span>
+        <span>{timerMinutes.substring(1)}</span>
 
-         <span>{timerSeconds.substring(0,1)}</span>
-         <span>{timerSeconds.substring(1)}</span>
+        <span>{timerSeconds.substring(0, 1)}</span>
+        <span>{timerSeconds.substring(1)}</span>
       </section>
       <section className="duration">
         <span>DAYS HOURS MINS SECS</span>
