@@ -6,7 +6,7 @@
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   background-image: url('./images/landing.jpg'); 
   background-size: cover;
 }
@@ -14,19 +14,18 @@
 
 .top-right {
   position: absolute;
-  top: 5.5rem;
+  top: 3rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   right: 0.5rem;
   justify-content: flex-end;
   font-family:'Rozha One', sans-serif;
-  font-size: 30px;
-  line-height: 2rem;
-  height: 0.5rem;
+  font-size: 55px;
+  line-height: 3rem;
   color: white;
   letter-spacing: .4rem;
-  width: 08.5rem;
+  width: 13.5rem;
   margin-right: 1.9rem;
 }
 
@@ -34,6 +33,7 @@
 .first {
   margin-right: 1rem;
   background-color: black;
+  
 }
 
 .second {
@@ -42,3 +42,17 @@
   background-color: black;
 }
 
+/* layout for iphone 8-1 */
+@media only screen and (max-width: 668px) {
+
+  .App {
+    background-image: url('./images/landing.jpg'); 
+    background-size: 1380px auto;
+    /* width: 414px; */
+    /* transform: scale(1.2); */
+  }
+  .top-right {
+    font-size: 30px;
+    width: 10rem;
+  }
+}

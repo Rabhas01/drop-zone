@@ -4,19 +4,20 @@ import Countdown from './Components/Countdown';
 function App() {
   return (
     <div className='App'>
-     {Countdown ()}
+      {
+      Countdown()
+    }
 
-     <header className='top-right'>
-    
-      <span className='first'>DROP</span>
-      <span className='second'>ZONE</span>
-    
-  </header>
+      <header className='top-right'>
+
+        <span className='first'>DROP</span>
+        <span className='second'>ZONE</span>
+
+      </header>
       {/* <div className='top-right'>
       <span className='first'>DROP</span>
-      <span className='second'>ZONE</span> */}
-      </div>
-    
+      <span className='second'>ZONE</span> */} </div>
+
   );
 }
 
